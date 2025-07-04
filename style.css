@@ -50,7 +50,10 @@ h2 {
 }
 
 .profile-pic {
-  display: block;
-  margin: 0 auto 20px;
+  width: 150px;
+  height: auto;
   border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
+
