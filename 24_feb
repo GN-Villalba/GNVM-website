@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manual emocional – Entrada 2 | gNoemi V.</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .container { max-width: 800px; margin: 0 auto; padding: 2rem; line-height: 1.8; }
+    h1, h2 { margin-top: 1.5rem; }
+    .highlight { font-weight: bold; }
+    blockquote { margin: 1.5rem 0; padding-left: 1rem; border-left: 3px solid #ccc; color: #555; font-style: italic; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="literary-space.html">Letras</a></li>
+        <li><a href="manual-emocional.html">Entrada 1</a></li>
+        <li><a href="manual-emocional-2.html" class="active">Entrada 2</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Entrada 2 – Manual emocional (y estilístico)</h1>
+    <h2>Cuando todo es nuevo: cómo no perderte (ni financieramente ni emocionalmente)</h2>
+    <p><em>por gNoemi V.</em></p>
+
+    <p>Hay un momento, generalmente en las primeras semanas, en el que todo se siente demasiado. El transporte, los acentos, los precios, el clima, las reglas no escritas. No es miedo. Es sobreestimulación.</p>
+
+    <p>Y nadie te dice que adaptarte también cansa.</p>
+
+    <blockquote>
+      No estás fallando.<br>
+      Estás procesando.
+    </blockquote>
+
+    <p>La adaptación no es lineal. Un día te sentís independiente y brillante. Al siguiente, querés que alguien te explique cómo funciona una lavadora británica.</p>
+
+    <h3>Primero: regulá el ritmo</h3>
+
+    <p>No hace falta entender todo en un mes. Ni hacer todos los trámites en una semana. Ni tener tu estilo definido en otoño.</p>
+
+    <ul>
+      <li>Elegí tres prioridades por semana. No diez.</li>
+      <li>Armá una pequeña rutina (café, caminata, biblioteca).</li>
+      <li>Permitite no ser experta todavía.</li>
+    </ul>
+
+    <h3>Segundo: el presupuesto también es emocional</h3>
+
+    <p>El dinero en el extranjero no es solo dinero. Es seguridad. Es autonomía. Es tranquilidad mental.</p>
+
+    <p>Uno de los mayores errores es gastar en la primera etapa por ansiedad: compras rápidas, cosas “urgentes”, ropa que no necesitabas tanto.</p>
+
+    <p>Respirá antes de comprar.</p>
+
+    <ul>
+      <li>Observá primero cómo se viste la gente realmente (no Instagram).</li>
+      <li>Entendé el clima antes de invertir en abrigo.</li>
+      <li>Separá gastos esenciales de gastos emocionales.</li>
+    </ul>
+
+    <p>La elegancia no es tener mucho. Es saber elegir.</p>
+
+    <h3>Tercero: vestirse también es identidad</h3>
+
+    <p>Cuando todo es nuevo, tu ropa puede convertirse en ancla o en disfraz.</p>
+
+    <p>No necesitás convertirte en versión europea de vos misma. Tampoco mantener intacta tu versión anterior. El estilo en el extranjero es un diálogo, no una renuncia.</p>
+
+    <ul>
+      <li>Conservá una prenda que te recuerde quién sos.</li>
+      <li>Comprá piezas versátiles, no impulsivas.</li>
+      <li>No te vistas para encajar. Vestite para estar cómoda y coherente.</li>
+    </ul>
+
+    <h3>Cuando abruma</h3>
+
+    <p>Habrá días en que extrañes sin razón clara. Días en que el cielo gris pese más de lo normal. Días en que te preguntes si valía la pena.</p>
+
+    <p>Valía.</p>
+
+    <p>Pero no porque sea perfecto. Sino porque es tu proceso.</p>
+
+    <p>Adaptarse no significa endurecerse. Significa expandirse.</p>
+
+    <p>Y expandirse duele un poco.</p>
+
+    <h3>Tip suave para esta etapa</h3>
+    <ul>
+      <li>No tomes decisiones grandes en días emocionalmente bajos.</li>
+      <li>No gastes por nostalgia.</li>
+      <li>No te compares con quien parece adaptarse más rápido.</li>
+      <li>Recordá: estás construyendo algo que no se ve todavía.</li>
+    </ul>
+
+    <p><strong>Estudiar afuera no es solo un logro académico. Es un proceso interno.</strong></p>
+
+    <p>Y si hoy te sentís un poco perdida, eso no significa que no estés avanzando.</p>
+
+    <p><em>— gNoemi V.</em></p>
+  </main>
+</body>
+</html>
