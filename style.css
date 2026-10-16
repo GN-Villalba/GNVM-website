@@ -637,3 +637,14 @@ a:focus-visible {
     grid-template-columns: 9fr 16fr;
   }
 }
+
+/* three landscape photos in a row */
+@media (min-width: 640px) {
+  .photo-gallery.trio {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.photo-gallery + .photo-gallery {
+  margin-top: -1rem;
+}
