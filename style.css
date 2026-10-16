@@ -637,3 +637,20 @@ a:focus-visible {
     grid-template-columns: 9fr 16fr;
   }
 }
+
+/* three landscape photos in a row */
+@media (min-width: 640px) {
+  .photo-gallery.trio {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.photo-gallery + .photo-gallery {
+  margin-top: -1rem;
+}
+
+/* a single portrait photo, kept to a comfortable size */
+.photo-gallery.single.narrow img {
+  max-width: 560px;
+  margin: 0 auto;
+}
