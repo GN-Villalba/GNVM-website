@@ -580,3 +580,55 @@ a:focus-visible {
     transition: none !important;
   }
 }
+
+/* ---------- Milestone pages ---------- */
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.milestone-page .milestone-number,
+.milestone-page .milestone-meta {
+  text-align: center;
+}
+
+.milestone-page blockquote {
+  text-align: center;
+  border-left: 0;
+  border-radius: 10px;
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.photo-gallery figure {
+  margin: 0;
+}
+
+.photo-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(80, 45, 25, 0.12);
+}
+
+.photo-gallery.single {
+  grid-template-columns: 1fr;
+}
+
+/* one portrait (3:4) + one landscape (4:3) photo at equal height */
+@media (min-width: 640px) {
+  .photo-gallery.mixed {
+    grid-template-columns: 9fr 16fr;
+  }
+}
