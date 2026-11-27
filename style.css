@@ -654,3 +654,24 @@ a:focus-visible {
   max-width: 560px;
   margin: 0 auto;
 }
+
+/* ---------- Research interests as tags ---------- */
+
+.interest-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 1rem;
+}
+
+.interest-tags li {
+  margin: 0;
+  padding: 0.3rem 0.9rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
