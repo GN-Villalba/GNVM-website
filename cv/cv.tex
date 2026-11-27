@@ -1,0 +1,187 @@
+% =============================================================
+%  CV — Gabriela Noemi Villalba Marecos
+%  Compile with pdfLaTeX (works as-is in Overleaf).
+%  To update: edit the entries below; layout macros are at the top.
+% =============================================================
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[a4paper,top=1.3cm,bottom=1.3cm,left=1.6cm,right=1.6cm]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{needspace}
+\usepackage{tabularx}
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{accent}{HTML}{800020}
+\definecolor{muted}{gray}{0.45}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{0.97}
+
+% ---------- Section headings: uppercase, accent colour, rule ----------
+\titleformat{\section}
+  {\Needspace{4\baselineskip}\small\bfseries\color{accent}}
+  {}{0pt}{\MakeUppercase}[\vspace{-0.75ex}{\color{accent}\titlerule}]
+\titlespacing*{\section}{0pt}{1.1ex}{0.6ex}
+
+% ---------- Lists ----------
+\setlist[itemize]{label=\textbullet,leftmargin=1.1em,itemsep=0pt,topsep=0.2ex,parsep=0pt}
+
+% ---------- Entry macros ----------
+% \entry{Title}{Dates}{Subtitle (italic, grey)}
+\newcommand{\entry}[3]{%
+  \textbf{#1}\hfill{\color{muted}#2}\\
+  {\small\itshape\color{muted}#3}\par\vspace{0.2ex}}
+% \referee{Name}{Affiliation}{email}
+\newcommand{\referee}[3]{%
+  \textbf{#1}\\ {\small #2}\\ {\small\texttt{#3}}\par\vspace{0.5ex}}
+
+\begin{document}
+
+% ================= HEADER =================
+\begin{center}
+  {\LARGE\bfseries GABRIELA NOEMI VILLALBA MARECOS}\\[0.6ex]
+  {\color{accent}PhD Candidate in Economics $\cdot$ University of Sussex}\\[0.4ex]
+  {\small \href{mailto:g.villalba-marecos@sussex.ac.uk}{g.villalba-marecos@sussex.ac.uk} $\cdot$ London, UK $\cdot$
+  \href{https://gn-villalba.github.io/GNVM-website/index.html}{\color{accent}Webpage}}
+\end{center}
+\vspace{-1ex}
+{\color{accent}\rule{\linewidth}{0.8pt}}
+\vspace{0.4ex}
+
+% ================= RESEARCH INTERESTS =================
+\section{Research Interests}
+{\small Applied microeconomics, with research interests in the economics of education, labour economics, inequality, and social mobility. I combine measurement and causal inference, using administrative, survey, and experimental data to study how education and labour market institutions shape individual opportunities and socioeconomic outcomes.}
+
+% ================= EDUCATION =================
+\section{Education}
+\entry{PhD in Economics}{2024 -- Present}{University of Sussex}
+\entry{MSc in Development Economics \textmd{(Distinction)}}{2021 -- 2022}{University of Sussex}
+\entry{BSc in Economics \textmd{(First Class Honours)}}{2015 -- 2019}{National University of Asunción}
+
+% ================= RESEARCH EXPERIENCE =================
+\section{Research Experience}
+\entry{Research Assistant, Experimental and Labour Economics}{Apr 2025 -- Jan 2026}{Research Institute in Economics and Finance (RIEF) $\cdot$ with Dr. Muchin Bazan}
+\begin{itemize}
+  \item Contributed to \textit{Information and Adjustment of Expectations: Evidence from a Peruvian Training Program}, a field experiment combining survey and administrative data.
+  \item Conducted survey harmonisation, data cleaning, sample construction, and econometric analysis integrating experimental and administrative sources.
+\end{itemize}
+\vspace{0.3ex}
+\entry{Casual Research Assistant, Labour and Sports Economics}{Nov 2024 -- Feb 2025}{University of Sussex $\cdot$ with Prof. Barry Reilly}
+\begin{itemize}
+  \item Developed Python web-scraping algorithms to collect and process unstructured information from online sources.
+  \item Implemented text-cleaning and structured data-extraction pipelines for exploratory quantitative analysis.
+\end{itemize}
+\vspace{0.3ex}
+\entry{Research Assistant, Applied Microeconomics}{Jul 2023 -- Nov 2024}{University of Sussex $\cdot$ with Prof. Shqiponja Telhaj}
+\begin{itemize}
+  \item Cleaned, harmonised, and merged large administrative datasets on higher education, academic staff, and employment outcomes in the Western Balkans.
+  \item Produced descriptive and econometric analysis in Stata and contributed to the regional policy report \textit{Quality and Barriers of Higher Education in Albania}.
+  \item Conducted literature reviews on higher-education quality, programme evaluation, and labour-market inequalities.
+\end{itemize}
+\vspace{0.3ex}
+\entry{Research Assistant, Economics of Education}{Dec 2022 -- Dec 2023}{Centre for Economic Performance, LSE $\cdot$ with Prof. Shqiponja Telhaj \& Dr. Emma Duchini}
+\begin{itemize}
+  \item Worked with large-scale UK education datasets, including DTR and SWC, in a project funded by the Nuffield Foundation.
+  \item Maintained and checked reproducible Stata do-files, ensuring consistency across data vintages and analytical outputs.
+  \item Collected, classified, and validated information on school sponsor types for more than 600 converted academies.
+\end{itemize}
+
+% ================= RESEARCH IN PROGRESS =================
+\section{Research in Progress}
+\textbf{\small PhD Chapters}
+\begin{itemize}
+  \item \textbf{Raising the Floor: Minimum Quality Standards and the Training of Future Teachers in Colombia.}\\
+  Evaluates the effects of mandatory minimum quality standards for teacher-training programmes on student outcomes and higher-education provision, using linked administrative data and a staggered difference-in-differences and event-study design.
+  \item \textbf{What Students Want and Where They End Up: Aspirations, Local Options and Undermatch in Colombia.}\\
+  Develops programme-level measures of quality and mismatch and a benchmark for students' stated aspirations, to compare the opportunities students aimed for with those they ultimately obtained, using linked administrative records.
+\end{itemize}
+
+\vspace{0.6ex}
+\textbf{\small Working Papers}
+\begin{itemize}
+  \item \textbf{Gender Pay Gaps in a Middle-Income Country: Household Roles and the Motherhood Penalty.}\\
+  Examines gender wage inequalities across the earnings distribution, with a focus on household roles and the motherhood penalty, using nationally representative household survey data. \textit{Developed from MSc dissertation, University of Sussex.}
+  \item \textbf{Women-Only Admission Tracks in Japanese Universities: Effects, Selectivity and Limits} \textmd{(with Tomoto Masuda).}
+  \item \textbf{Pro Rata, Not Parity: The Allocation of Women's Quotas in Japanese STEM} \textmd{(with Tomoto Masuda).}
+\end{itemize}
+
+% ================= PRESENTATIONS =================
+\section{Presentations \& Conferences}
+\begin{itemize}
+  \item \textbf{Scottish Economic Society Annual Conference}, 2027 (accepted). \textit{What Students Want and Where They End Up.}
+  \item \textbf{Sussex PGR Workshop in Economics}, University of Sussex, 2026. \textit{What Students Want and Where They End Up.}
+  \item \textbf{2nd Junior Workshop on Economics of Latin America}, Freie Universität Berlin, Germany, 2026. \textit{Raising the Floor.}
+  \item \textbf{Royal Economic Society Annual Conference}, Newcastle, UK, 2026. \textit{Raising the Floor.} Main session.
+  \item \textbf{Royal Economic Society Easter Training School}, 2026. \textit{Raising the Floor.}
+  \item \textbf{5th Southern PhD Economics Conference}, 2026. \textit{Raising the Floor.} Poster presentation.
+  \item \textbf{CAF--WELAC Conference}, 2025. \textit{Gender Pay Gap Structure in a Middle-Income Country: Evidence from Paraguay.}
+\end{itemize}
+
+% ================= SKILLS =================
+\section{Technical Skills}
+{\small
+\begin{tabularx}{\linewidth}{@{}p{3.1cm}X@{}}
+\textbf{Software} & Stata (advanced -- large administrative datasets, reproducible workflows, data management and econometric analysis); Python (web scraping, text processing, data cleaning and regression analysis); \LaTeX; Overleaf; Zotero \\[0.3ex]
+\textbf{Econometrics} & Causal inference; difference-in-differences; event studies; instrumental variables; regression discontinuity; panel data; programme evaluation; matching methods \\[0.3ex]
+\textbf{Data} & Large administrative microdata; survey data; experimental data; data linkage; survey harmonisation; longitudinal and panel-data workflows \\[0.3ex]
+\textbf{Research workflow} & Reproducible Stata do-files; data cleaning and merging; documentation; literature review; descriptive and econometric analysis \\[0.3ex]
+\textbf{Languages} & Spanish (Native); Guarani (Fluent); English (Advanced); Portuguese (Advanced); Japanese (Beginner) \\
+\end{tabularx}}
+
+% ================= TEACHING =================
+\section{Teaching Experience}
+\entry{Doctoral Tutor}{2024 -- 2026}{University of Sussex, Department of Economics}
+\begin{itemize}
+  \item Mathematics \& Programming
+  \item Quantitative Methods for Business \& Economics
+  \item Introduction to Econometrics
+\end{itemize}
+\vspace{0.3ex}
+\entry{Teaching Assistant, Development Economics}{2020 -- 2022}{National University of Asunción}
+
+% ================= SERVICE =================
+\section{Service}
+\begin{itemize}
+  \item \textbf{PhD/ECE Representative}, Judging Panel for the RES Medal for Services to the Economics Profession, Royal Economic Society, 2026--2028.
+  \item \textbf{Postgraduate Research (PGR) Representative}, Department of Economics, University of Sussex, 2025--2027.
+  \item \textbf{Organiser}, Sussex PGR Workshop in Economics, University of Sussex, 2026.
+\end{itemize}
+
+% ================= AWARDS =================
+\section{Awards, Scholarships \& Research Funding}
+\begin{itemize}
+  \item \textbf{Don Carlos Antonio López Scholarship for Doctoral Studies} (2024) --- Paraguayan Government \& Inter-American Development Bank.
+  \item \textbf{Doctoral Overseas Conference Grant} (2026) --- University of Sussex, supporting participation in the Junior Workshop on Economics of Latin America, Berlin.
+  \item \textbf{Business School International Master's Award} (2021) --- University of Sussex.
+  \item \textbf{FCE--UNA Research Fund} (2022--2024) --- research funding for projects on economic development and educational inequalities in Paraguay.
+  \item \textbf{Paraguayan Full Scholarship for Undergraduate Studies} (2015) --- Itaipu Binacional; top-performing recipient in national selection examination.
+\end{itemize}
+
+% ================= PROFESSIONAL DEVELOPMENT =================
+\section{Professional Development}
+\begin{itemize}
+  \item Associate Fellow of the Higher Education Academy (AFHEA), Advance HE, 2026.
+  \item World Bank, \textit{Reproducible Research Fundamentals}, 2026.
+  \item Accredited Researcher for secure-data research in the UK, 2025--2030.
+  \item Training in secure data access and research data use -- UK Data Service, 2024.
+\end{itemize}
+
+% ================= REFERENCES =================
+\section{References}
+\begin{minipage}[t]{0.49\linewidth}
+\referee{Prof. Shqiponja Telhaj}{University of Sussex / Centre for Economic Performance, LSE}{S.Telhaj@sussex.ac.uk}
+\referee{Dr. Emma Duchini}{Associate Professor, Business School, University of St Andrews}{e.duchini@st-andrews.ac.uk}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.49\linewidth}
+\referee{Dr. Muchin Bazan}{Research Institute in Economics and Finance / Universidad Católica de Chile / Georgia Institute of Technology}{muchin.bazan@uc.cl}
+\referee{Dr. Wenchao Jin}{Assistant Professor in Economics, University of Sussex}{Wenchao.Jin@sussex.ac.uk}
+\end{minipage}
+
+\end{document}
